@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--BoxIcons v2.1.2-->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <!--Favicon link-->
+    <link rel="shortcut icon" href="./images/favicon_logo.svg" type="image/x-icon">
+    <!--Google Font Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Title-->
+    <title>UFAZ | French-Azerbaijani University</title>
+</head>
+<body>
+    <!--Hero Section begins here:-->
+    <section class="hero-page" id="heroPage">
+        <!-- Entire Navigation begins here, inside the Hero Section -->
+        <nav class="navBar">
+            <a href="index.html"><img src="./images/logo-alternative.png"></a> 
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">FACULTIES</a></li>
+                    <li><a href="#">STUDENT LIFE</a></li>
+                    <li><a href="#">RESEARCH</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#footer">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!-- Entire Navigation ends here -->
+
+
+        <!-- Content for Hero Section -->
+        <div class="text-box">
+            <h1 class="moveup-animation">Get European Education Without Moving to Europe</h1>
+            <p class="moveup-animation">UFAZ offers a high quality education with more focus on practice.<br>Build yourself from scratch.</p>
+            <a href="#" class="hero-btn moveup-animation" onclick="showMissionVision()">MISSION & VISION</a>
+        </div>
+        <!-- Content for Hero Section ends here -->
+            </section>
+            <!--Entire Hero Section, including the pop-up page ends here-->
+
+        <!-----------------------
+            This is where the Mission-Vision Pop-up page is written.
+        ------------------------->
+
+        <div id="mission">
+            <i class="fa-solid fa-circle-xmark" onclick="hideMissionVision()"></i>
+                <div class="mission-content">
+                    <h1 id="mission-heading">Our &nbsp;Mission</h1>
+                    <p id="mission-paragraph">
+                        <ul>
+                            <li>create in Baku, a scientific university of excellence of international level and regional influence</li>
+                            <li>create and develop university cooperation between France and Azerbaijan supporting the reform of Azerbaijani scientific higher education</li>
+                            <li>deliver study programs based on training through scientific experimentation and training by project work in a company or in a research laboratory.</li>
+                            <li>train, in collaboration with the business world, English and French-speaking human resources in the fields of science and technology for the socio-economic development of Azerbaijan</li>
+                        </ul>
+                    </p>
+                    <h1 id="vision-heading">Our &nbsp;Vision</h1>
+                    <p id="vision-paragraph">
+                        <ul>
+                            <li>training opening access to the functions of senior executives</li>
+                            <li>study programs, which allow acquiring the mastery of the fundamental concepts necessary for the understanding of the major current and future scientific, technological, and environmental issues</li>
+                            <li>teaching methods focused on student learning and based on problem-solving, experimental practice, investigation and scientific integrity</li>
+                            <li>a study environment, which includes an initiation into research and training through research in relation to internationally recognized research teams</li>
+                        </ul>
+                    </p>
+
+                    <div id="ufaz-video">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/uukmHfraa68" title="UFAZ New Scientific Laboratories" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            <i class="fa-solid fa-circle-xmark" id="bottom-xmark" onclick="hideMissionVision()"></i>
+        </div>  <!--Mission&Vision Pop-up page's code ends here-->
+
+    <!---------------------------------- 
+        Undergraduate Programs Section
+    ----------------------------------->
+    <section class="programs">
+        <h1>Undergraduate Programs</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi rem veritatis dolor quisquam soluta expedita?</p>
+
+            <div class="row">
+
+                <div class="program-col">
+                    <h3>Computer Science</h3>
+                    <img src="./images/computer-science-image.jpg" alt="Computer Science Image">
+                    <p>The Department of Mathematics and Computer Science testifies to the central position of mathematics...</p>
+                    <button class="undergraduate-btn" id="cs-btn">See more &nbsp;&#8594;</button>
+                </div>
+
+                <div class="program-col">
+                    <h3>Oil and Gas Engineering</h3>
+                    <img src="./images/oil-gas-engineering-image.jpg" alt="Oil and Gas Engineering Image">
+                    <p>Oil and Gas Engineering is specialising in sensing and instrumentation Technologies for...</p>
+                    <button class="undergraduate-btn" id="og-btn">See more &nbsp;&#8594;</button>
+                </div>
+
+                <div class="program-col">
+                    <h3>Chemical Engineering</h3>
+                    <img src="./images/chemical-engineering-image.jpg" alt="Chemical Engineering Image">
+                    <p>Bachelor in Chemical Engineering aims to ensure a high-level training adapted to the challenges...</p>
+                    <button class="undergraduate-btn" id="undergraduate-btn chem-btn">See more &nbsp;&#8594;</button>
+                </div>
+
+                <div class="program-col">
+                    <h3>Geological Engineering</h3>
+                    <img src="./images/geological-engineering-image.jpg" alt="Geological Engineering Image">
+                    <p>Geophysical Engineering is the scientific method of locating and extracting different natural...</p>
+                    <button class="undergraduate-btn" id="undergraduate-btn geo-btn">See more &nbsp;&#8594;</button>
+                </div>
+
+            </div>
+    </section>
+
+    <!-----------------------------
+        Graduate Programs Section
+    ------------------------------>
+
+    <section class="programs graduate-programs">
+        <h1 class="grad-row-heading">Graduate Programs</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi rem veritatis dolor quisquam soluta expedita?</p>
+
+            <div class="row">
+
+                <div class="program-col graduate">
+                    <h3>Physical Chemistry and Chemical Engineering</h3>
+                    <img src="./images/grad-program-chem.jpg" alt="Computer Science Image">
+                    <p>The Master of Physical Chemistry and Chemical Engineering (PCCE) at UFAZ is a two-year...
+                    </p>
+                    <button class="undergraduate-btn" id="cs-btn">See more &nbsp;&#8594;</button>
+                </div>
+
+                <div class="program-col graduate">
+                    <h3>Data Sciences and Artificial Intelligence</h3>
+                    <img src="./images/grad-program-ai.jpeg" alt="Artificial Intelligence Image">
+                    <p>The Data Sciences and Artificial Intelligence (DSAI) UFAZ Master’s degree will focus on...</p>
+                    <button class="graduate-btn" id="ai-btn">See more &nbsp;&#8594;</button>
+                </div>
+
+                <div class="program-col graduate">
+                    <h3 class="geosciences-heading">Geosciences</h3>
+                    <img src="./images/grad-program-geo.jpg" alt="Chemical Engineering Image">
+                    <p>This two-year graduate program, proposed exclusively in the context of the...</p>
+                    <button class="undergraduate-btn" id="undergraduate-btn chem-btn">See more &nbsp;&#8594;</button>
+                </div>
+
+            </div>
+    </section>
+
+
+
+
+
+
+    <!-------------------------------------
+        Video Section: Visit UFAZ Labs 
+    -------------------------------------->
+
+    <section id="video-wrapper">
+        <video id="video" src="./images/ufaz-lab-video-edited.mp4" autoplay muted loop>Your browser does not support the video tag.</video>
+        <div id="visit-content">
+            <img src="./images/logo-alternative.png" alt="ufaz-logo" width="150px">
+            <h1>UFAZ invites perspective students to visit its facilities</h1>
+            <button id="visit-ufaz">Register to Visit</button>
+        </div>
+    </section>
+
+    <!--------------------
+        Partners Section
+    ---------------------->
+
+    <div id="partners">
+        <h1>Partners</h1>
+        <div id="partners-image-container">
+            <img src="./images/frc_logo.png" alt="">
+            <img src="./images/minedu_logo.png" alt="">
+            <img src="./images/rennes_logo.png" alt="">
+            <img src="./images/unistra_logo.png" alt="">
+            <img src="./images/total_logo.png" alt="">
+            <img src="./images/bp_logo.png" alt="">
+        </div>
+    </div>
+
+
+    <!--------------------- 
+        Footer Section
+     ---------------------->
+
+    <footer id="footer">
+
+        <div id="upper-footer">
+            <div class="upper-footer-item" id="contact-info">
+                <h2>Contact</h2>
+                
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    Call us: (+994 12) 599 00 74
+                </div>
+                <div class="location">
+                    <i class="fa-solid fa-location-pin"></i>
+                    Nizami Str. 183, Baku, Azerbaijan
+                </div>
+                <div class="career-email">
+                    <i class="fa-solid fa-envelope"></i>
+                    Work at UFAZ: careers@ufaz.az
+                </div>
+                <div class="admission-email">
+                    <i class="fa-solid fa-envelope"></i>
+                    For admission: admissions@ufaz.az
+                </div>
+                <div class="information-email">
+                    <i class="fa-solid fa-circle-info"></i>
+                    For more information: info@ufaz.az
+                </div>
+
+                <div id="footer-nav">
+                    <div id="research">
+                        <h2>Research</h2>
+                        <ul>
+                            <li><a href="#">Chemistry</a></li>
+                            <li><a href="#">Earth Sciences</a></li>
+                            <li><a href="#">Artificial Intelligence</a></li>
+                        </ul>
+                    </div>
+                    <div id="student-life">
+                        <h2>Student Life</h2>
+                        <ul>
+                            <li><a href="">Student Clubs</a></li>
+                            <li><a href="">Student Council</a></li>
+                            <li><a href="">Summer School in France</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <button id="donate-btn">Donate</button>
+            </div>
+
+            <div class="upper-footer-item" id="query-form-contact">
+                <h2>Quick Message</h2>
+                <p>Send us your quick query or proposal. We will get back to you as soon as possible!</p>
+                <form id="form-section">
+
+                        <div id="form-name">
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" placeholder="Name">
+                        </div>
+                        <div id="form-surname">
+                            <label for="surname">Your surname</label>
+                            <input type="text" id="surname" placeholder="Surname">
+                        </div>
+                        <div id="form-email">
+                            <label for="email">Your email</label>
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+
+                        <div id="form-textarea">
+                            <label for="your_message">Your message</label>
+                            <textarea name="yourmessage" id="your_message" placeholder="Your message..."></textarea>
+                        </div>
+
+                        <div id="send-email-button">
+                            <button class="btn send-button">Send</button>
+                        </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="social-icon-heading">
+            <h1>Follow Us</h1>
+        </div>
+
+        <div class="social-buttons">
+            <a href="https://www.instagram.com/french_azerbaijani_university/" target="_blank">
+                <button>
+                    <i class="bx bxl-instagram-alt"></i>
+                    <div class="bg"></div>
+                </button>
+            </a>
+            <a href="https://www.youtube.com/c/UFAZFrenchAzerbaijaniUniversity" target="_blank">
+                <button>
+                    <i class="bx bxl-youtube"></i>
+                    <div class="bg"></div>
+                </button>
+            </a>
+            <a href="https://twitter.com/ufazuniversity" target="_blank">
+                <button>
+                    <i class="bx bxl-twitter"></i>
+                    <div class="bg"></div>
+                </button>
+            </a>
+            <a href="https://www.linkedin.com/school/french-azerbaijani-university/" target="_blank">
+                <button>
+                    <i class="bx bxl-linkedin"></i>
+                    <div class="bg"></div>
+                </button>
+            </a>
+        </div>
+
+        
+        <a href="#heroPage" id="scroll-up-arrow">
+            <i class="fa-solid fa-arrow-up" id="scrollArrow"></i>
+        </a>
+        
+    </footer>
+
+    
+
+
+    <!---------------------------- 
+        External JavaScript File
+     ------------------------------>
+    <script src="script.js"></script>
+    <!----------------------------- 
+        FontAwesome Kit for Icons
+     ------------------------------>
+    <script src="https://kit.fontawesome.com/16a52127e2.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
