@@ -1,12 +1,17 @@
 
 //JavaScript for Toggle Menu
 
-function showMenu(){
-    document.getElementById("navLinks").style.transform = "scaleY(1)";
-}
-function hideMenu(){
-    document.getElementById("navLinks").style.transform = "scaleY(0)";
-}
+const showMenu = document.querySelector(".fa-bars");
+const navLinks = document.querySelector("#navLinks");
+const closeMenu = document.querySelector(".fa-square-xmark");
+
+showMenu.addEventListener("click", () => {
+    navLinks.style.transform = "scaleY(1)";
+});
+
+closeMenu.addEventListener("click", () => {
+    navLinks.style.transform = "scaleY(0)";
+});
 
 //JavaScript for Mission & Vision
 
