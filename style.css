@@ -189,9 +189,9 @@ nav .fa-solid {
     height: 40px;
     border-radius: 50%;
     transition: transform 300ms linear;
-    position: sticky;
+/*     position: sticky;
     top: 0;
-    left: 0;
+    left: 0; */
 }
 #mission .fa-circle-xmark:hover {
     transform: scale(0.9);
