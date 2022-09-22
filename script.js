@@ -10,12 +10,17 @@ function hideMenu(){
 
 //JavaScript for Mission & Vision
 
-function showMissionVision(){
-    document.getElementById("mission").style.transform = "translate(-50%, -50%) scaleX(1)";
-}
-function hideMissionVision(){
-    document.getElementById("mission").style.transform = "translate(-50%, -50%) scaleX(0)";
-}
+const heroButton = document.querySelector(".text-box a");
+const missionPopup = document.querySelector("#mission");
+const closeMissionPopup = document.querySelector(".fa-circle-xmark");
+
+heroButton.addEventListener("click", () => {
+    missionPopup.style.transform = "translate(-50%, -50%) scaleX(1)";
+});
+
+closeMissionPopup.addEventListener("click", () => {
+    missionPopup.style.transform = "translate(-50%, -50%) scaleX(0)";
+})
 
 //Footer Section Social Media Icons
 
