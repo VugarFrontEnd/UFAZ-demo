@@ -235,7 +235,7 @@ nav .fa-solid {
         top: 0;
         right: 0px;
         transform: scaleY(0);
-        transform-origin: center right;
+        transform-origin: top;
         text-align: left;
         z-index: 2;
         transition: 500ms;
